@@ -39,9 +39,9 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001889509068') # give your force subscribe channel id here else leave it blank
+auth_channel = environ.get('AUTH_CHANNEL', '-1002267696898') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-reqst_channel = environ.get('REQST_CHANNEL_ID', '')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002267696898')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
@@ -55,20 +55,20 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'blackcollection')
 
 #Rename Mode - True or False 🤔
-RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
+RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
 
 # Background Remove
 RemoveBG_API = environ.get("RemoveBG_API", "f7stCpqeKmuDeHMX66qH5V8D")
 
 # Channel Links 💸
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TheBlackXYZ_Movie_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TheBlackXYZ')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/filmfactorygroup1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/filmfactorygroup1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TheBlackXYZ/155')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/TheBlackXYZ/155')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'The_Black_XYZ_SupportChat') # Support Chat Links Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'filmfactorygroup1') # Support Chat Links Without https:// or @
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.yamlinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '8ba797ded52d10834ad44fc07bf9c659a67167d4')
 
@@ -93,7 +93,7 @@ REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal coun
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/26efce74874b14ebdb4ff.jpg')
 PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs - \n\n- 40ʀs - 1 ᴡᴇᴇᴋ.[ Gold 🥇]\n- 60ʀs - 1 ᴍᴏɴᴛʜs.[ Silver🥈]\n- 150ʀs - 3 ᴍᴏɴᴛʜs.[ Platinum🥉]\n- 300ʀs - 6 ᴍᴏɴᴛʜs.[ Dimond 1️⃣]\n- 500ʀs - 9 ᴍᴏɴᴛʜs.[ Dimond 2️⃣]\n- 700ʀs - 11 ᴍᴏɴᴛʜs.[ Dimond 3️⃣]\n- 1000ʀs - 15 ᴍᴏɴᴛʜs.[ Legend Pack 👑]\n\n🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎁\n\n✯ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ\n✯ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ\n✯ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n✯ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n✯ ʜɪɢʜ-sᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ\n✯ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs\n✯ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs\n✯ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n✯ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ʜ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ\n\n✨ ᴜᴘɪ ɪᴅ - <code>9021769288565@paytm</code>\n\nᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan\n\n💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ - <code>@Itz_rohan_24</code> \n\n‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>')
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Itz_rohan_24') # owner username without @
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Leomc_bot') # owner username without @
 
 # Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
